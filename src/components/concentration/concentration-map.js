@@ -12,7 +12,7 @@ export const ConcentrationMap = (props) => {
   return (
     <div style={{ height: '60vh', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyBjXL3rddKLAUSWwfqe2ZA_HQgKJDdbwtE'}}
+        bootstrapURLKeys={{ /* GOOGLE API KEY */}}
         defaultCenter={{lat: 40.73, lng: -73.93}}
         defaultZoom={1}
         yesIWantToUseGoogleMapApiInternals={true}
